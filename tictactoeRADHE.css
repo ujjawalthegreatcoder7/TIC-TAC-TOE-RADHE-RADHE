@@ -22,7 +22,7 @@ align-items: right  ;
 justify-content: center ;
 text-decoration: underline ;
 box-shadow: 5px 10px 2px 2px gray ;
-border-bottom-right-radius: 40px ; ;
+border-bottom-right-radius: 40px ; 
 border-bottom-left-radius: 40px ; 
 }
 
@@ -231,20 +231,15 @@ font-size : 50px ;
                                 .firstdiv::after {
                                     font-size : 20px ;
                                 }
+                                .result{
+                                    font-size : 20px ;
+                                }
                                 
                                     }
 
-                                    @media only screen and (max-width : 700px){
-
-                                        .boldheading{
-                                        font-size : 40px ;
-                                        }
+                                    
                                         
-                                        .firstdiv::after {
-                                            font-size : 20px ;
-                                        }
-                                        
-                                            }
+                                            
         
 
 
