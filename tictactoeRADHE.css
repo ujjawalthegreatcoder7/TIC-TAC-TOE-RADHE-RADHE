@@ -1,0 +1,228 @@
+*{
+padding : 0 ; 
+margin : 0 ;   
+}
+
+body{
+background-color : #73fff1 ;
+}
+.opacity:hover {
+    opacity : 0.5 ;
+    cursor : pointer ;
+    box-shadow: 2px 5px 10px 10px #3B0404;
+}
+
+.firstdiv{
+background-color: #75E6DA ;
+height : 100px  ;
+color : #05445E ;
+font-size : 70px ;
+display : flex ;
+align-items: right  ;
+justify-content: center ;
+text-decoration: underline ;
+box-shadow: 5px 10px 2px 2px gray ;
+border-bottom-right-radius: 40px ; ;
+border-bottom-left-radius: 40px ; 
+}
+
+.firstdiv::after {
+    content : 'UJJAWALtheGREATCODDER7' ;
+    position : absolute ;
+    background-color: #DEB3AD; 
+    margin-top : 100px ;
+    height : 5px;
+    width : 775px ;
+    font-size : 35px ;
+    transform-origin : right ;
+    transform:scaleX(0) ;
+    transition : transform 2s ;
+    text-align: center ;
+    }
+
+    .firstdiv:hover::after {
+
+transform :scaleX(1) ;
+transform-origin: left ;
+
+animation : bounce 2ms  infinite linear 2s alternate  ;
+}
+
+@keyframes bounce {
+    to { transform : translateY(5px); }
+}
+
+.boldheading{
+    text-shadow:5px 3px  gray  ;
+}
+
+.cont{
+    margin-top : 80px ;
+display: flex ;
+justify-content : center ;
+align-items : center ;
+}
+
+.contt{
+    margin-top : 0px ;
+display: flex ;
+justify-content : center ;
+align-items : center ;
+}
+.container1{
+display : flex ;
+margin-top : 0px ;
+}
+.box1{
+    height : 100px;
+    width : 100px ;
+    border : 2px solid black ;
+    text-align : center ;
+    display : flex ;
+    justify-content: center ;
+    align-items: center;
+    font-family:fantasy ;
+    font-size : 45px;
+}
+.borderleft{
+    border-left : none ;
+}
+.border-right {
+    border-right : none ;
+}
+.border-top {
+    border-top : none ;
+}
+.border-bottom {
+    border-bottom : none ;
+}
+.resultbar{
+    display : flex ;
+    justify-content: center ;
+    align-items: center ;
+    }
+    .result{   
+    
+        display : flex ;
+    justify-content: center ;
+    align-items: center ;
+        height : 50px ;
+        width : 150px ;   
+        border: 2px solid #3B0404;
+        text-align: center ;
+       border-radius : 35px ;
+       margin-top : 70px ;
+       text-shadow: 3px 3px  rgb(85, 80, 80) ;
+       font-size : 30px ;
+       scale  : 0  ;
+    }
+    
+.score {
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    gap :100px ;
+    margin-top : 70px ;
+    font-size : 25px ;
+    text-align : center ;
+    }
+
+    .container2{
+        display: flex ;
+        justify-content : center ;
+        align-items : center ;
+        text-align : center ;
+        margin-top : 100px ;
+        flex-wrap: wrap;
+
+        width : 300px ;
+    }
+
+    .box {
+height : 100px ;
+width : 100px ;
+background-color: #73fff1  ;  
+font-size : 50px  ;
+font-family : fantasy ; 
+}
+
+    .container3{
+        display : flex ;
+        justify-content : center ;
+        align-items : center ;
+    
+    }
+
+    .reset{
+        display : flex ;
+        justify-content: center ;
+        align-items: center ;
+
+        margin-top : 80px ;
+    }
+    .rest {
+color : #05445E ;
+font-size : 20px;
+    }
+
+
+
+    @media only screen and (max-width : 380px){
+
+.boldheading{
+
+font-size : 50px ;
+}
+
+.firstdiv::after {
+    font-size : 25px ;
+}
+
+    }
+
+
+    @media only screen and (max-width : 415px){
+
+        .boldheading{
+        
+        font-size : 50px ;
+        }
+        
+        .firstdiv::after {
+            font-size : 25px ;
+        }
+        
+            }
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
