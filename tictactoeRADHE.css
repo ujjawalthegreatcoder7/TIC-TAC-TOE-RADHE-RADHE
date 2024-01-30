@@ -193,8 +193,34 @@ font-size : 50px ;
         }
         
             }
-    
 
+            @media only screen and (max-width : 300px){
+
+                .boldheading{
+                
+                font-size : 50px ;
+                }
+                
+                .firstdiv::after {
+                    font-size : 25px ;
+                }
+                
+                    }
+                
+    
+                    @media only screen and (max-width : 340px){
+
+                        .boldheading{
+                        
+                        font-size : 50px ;
+                        }
+                        
+                        .firstdiv::after {
+                            font-size : 25px ;
+                        }
+                        
+                            }
+                        
 
     
 
