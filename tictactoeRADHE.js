@@ -2,8 +2,6 @@ let boxes = document.querySelectorAll(".box") ;
 
 let result = document.querySelector("#resut") ;
 
-
-
 let thewinner = true ; 
 var turnO = true ;//player X
 let winpatterns = [
@@ -16,7 +14,6 @@ let winpatterns = [
 [0,3,6],
 [2,4,6],
 ] ;
-
 
 boxes.forEach((box) => {
   box.addEventListener("mouseover" , () => {
@@ -107,7 +104,7 @@ let pos3 = boxes[patterns[2]].innerText ;
     }
 
   } 
-if ( pos1!= "" && pos2 != "" && pos3 != "" && pos1 != pos2 && pos3 != pos2  ){
+if ( pos1!= "" && pos2 != "" && pos3 != "" && pos1 === pos2 ){
   if (thewinner === true ){
     result.innerText = " DRAW ";
     result.style.scale = "1";
